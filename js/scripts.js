@@ -1,0 +1,26 @@
+$(document).ready(function(){
+  $(".js").click(function(){
+    $(".js-showing").toggle();
+    $(".js-hidden").toggle();
+  });
+  $(".operators").click(function(){
+    $(".op-showing").toggle();
+    $(".op-hidden").toggle();
+  });
+  $(".variables").click(function(){
+    $(".va-showing").toggle();
+    $(".va-hidden").toggle();
+  });
+  $(".functions").click(function(){
+    $(".fu-showing").toggle();
+    $(".fu-hidden").toggle();
+  });
+  $(".methods").click(function(){
+    $(".me-showing").toggle();
+    $(".me-hidden").toggle();
+  });
+  $(".arguments").click(function(){
+    $(".ar-showing").toggle();
+    $(".ar-hidden").toggle();
+  });
+})
